@@ -126,13 +126,232 @@ span.footnote {
 }
 
 
+#p5 {
+  height: 10em;
+  width: 100%;
+}
 .ad {
   background-color: pink;
   width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .actual-content {
-  width: 10%;
-  height: 10%;
-  overflow: scroll-y;
+  height: 9em;
+  width: 11em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.ad-text {
+  margin-top: 1.5em;
+  font-size: 24px;
+}
+
+.ad1 {
+  background-color: aqua;
+
+}
+
+
+#r1-1::before {
+  content: "A ";
+  animation: hello1v1 infinite 3s;
+}
+
+@keyframes hello1v1 {
+
+  0% {
+      content: "A ";
+  }
+
+  50% {
+      content: "I have a ";
+  }
+
+  75% {
+      content: "It was a ";
+  }
+}
+
+
+#r1-2::before {
+  content: "brown hair pin";
+  animation: hello1v2 infinite 3s;
+}
+
+@keyframes hello1v2 {
+
+  0% {
+      content: "brown hair pin";
+  }
+
+  50% {
+      content: "yellow shirt";
+  }
+
+  75% {
+      content: "new pair of shoes";
+  }
+}
+
+#r2-1::before {
+  content: "tucked ";
+  animation: hello2v1 infinite 3s;
+}
+
+@keyframes hello2v1 {
+
+  0% {
+      content: "tucked ";
+  }
+
+  50% {
+      content: "laying ";
+  }
+
+  75% {
+      content: "broken ";
+  }
+}
+
+#r2-2::before {
+  content: "beside ";
+  animation: hello2v2 infinite 3s;
+}
+
+@keyframes hello2v2 {
+
+  0% {
+      content: "beside ";
+  }
+
+  50% {
+      content: "along ";
+  }
+
+  75% {
+      content: "above ";
+  }
+}
+
+#r2-3::before {
+  content: "the cupboard.";
+  animation: hello2v3 infinite 4s;
+}
+
+@keyframes hello2v3 {
+
+  0% {
+      content: "the cupboard.";
+  }
+
+  50% {
+      content: "the valley.";
+  }
+
+  75% {
+      content: "a well.";
+  }
+}
+
+#r3-1::before {
+  content: "I see ";
+  animation: hello3v1 infinite 3s;
+}
+
+@keyframes hello3v1 {
+
+  0% {
+      content: "I see ";
+  }
+
+  50% {
+      content: "She takes ";
+  }
+
+  75% {
+      content: "It felt ";
+  }
+}
+
+#r3-2::before {
+  content: "its owner";
+  animation: hello3v2 infinite 3s;
+}
+
+@keyframes hello3v2 {
+
+  0% {
+      content: "its owner";
+  }
+
+  50% {
+      content: "my skin";
+  }
+
+  75% {
+      content: "your power";
+  }
+}
+
+#r4-1::before {
+  content: "combing knots ";
+  animation: hello4v1 infinite 3s;
+}
+
+@keyframes hello4v1 {
+
+  0% {
+      content: "combing knots ";
+  }
+
+  50% {
+      content: "fastening buttons ";
+  }
+
+  75% {
+      content: "traversing hills ";
+  }
+}
+
+#r4-2::before {
+  content: "out ";
+  animation: hello4v2 infinite 3s;
+}
+
+@keyframes hello4v2 {
+
+  0% {
+      content: "out ";
+  }
+
+  50% {
+      content: "by ";
+  }
+
+  75% {
+      content: "for ";
+  }
+}
+
+#r4-3::before {
+  content: "her hair.";
+  animation: hello4v3 infinite 3s;
+}
+
+@keyframes hello4v3 {
+
+  0% {
+      content: "her hair.";
+  }
+
+  50% {
+      content: "your eyes.";
+  }
+
+  75% {
+      content: "the city.";
+  }
 }

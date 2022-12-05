@@ -46,6 +46,15 @@ const Poem1 = () => {
             <div>
                 <h3>IV. Multiplicity</h3>
                 <div>
+                    <span className="poem-row" id="r1-1"></span><span className="poem-row" id="r1-2"></span><br/>
+                    <span className="poem-row" id="r2-1"></span><span className="poem-row" id="r2-2"></span><span className="poem-row" id="r2-3"></span><br/>
+                    <span className="poem-row" id="r3-1"></span><span className="poem-row" id="r3-2"></span><br/>
+                    <span className="poem-row" id="r4-1"></span><span className="poem-row" id="r4-2"></span><span className="poem-row" id="r4-3"></span><br/>
+
+                    <span className="poem-row" id="r2"></span>
+
+                    <span className="poem-row" id="r3"></span>
+                    <span className="poem-row" id="r4"></span>
 
                 </div>
             </div>
@@ -53,11 +62,12 @@ const Poem1 = () => {
             <div>
                 <h3>V. Advertising</h3>
                 <div id="p5">
-                    <div className="ad">
-                        <span className="animated bounce infinite">CLICK HERE</span>
+                    <div className="ad ad1">
+                        <p className="ad-text animate__animated animate__flash animate__infinite	">CLICK HERE</p>
                     </div>
-                    <div className="ad">
-                        <span>LOOK AT ME!</span>
+                    <div className="ad animate__animated animate__bounce animate__infinite	">
+
+                        <p className="ad-text animate__animated animate__pulse animate__infinite	">LOOK AT ME!</p>
                     </div>
                     <div className="actual-content">
                         <p>I am trying to get some information relevant to my query but these ads keep popping up all over the screen and suddenly I see a link to another article that piques my interest and I lose track of what I originally was looking for.</p>
