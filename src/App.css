@@ -157,7 +157,7 @@ span.footnote {
 
 #r1-1::before {
   content: "A ";
-  animation: hello1v1 infinite 3s;
+  animation: hello1v1 infinite 5s;
 }
 
 @keyframes hello1v1 {
@@ -198,7 +198,7 @@ span.footnote {
 
 #r2-1::before {
   content: "tucked ";
-  animation: hello2v1 infinite 3s;
+  animation: hello2v1 infinite 8s;
 }
 
 @keyframes hello2v1 {
@@ -238,7 +238,7 @@ span.footnote {
 
 #r2-3::before {
   content: "the cupboard.";
-  animation: hello2v3 infinite 4s;
+  animation: hello2v3 infinite 7s;
 }
 
 @keyframes hello2v3 {
@@ -258,7 +258,7 @@ span.footnote {
 
 #r3-1::before {
   content: "I see ";
-  animation: hello3v1 infinite 3s;
+  animation: hello3v1 infinite 8s;
 }
 
 @keyframes hello3v1 {
@@ -278,7 +278,7 @@ span.footnote {
 
 #r3-2::before {
   content: "its owner";
-  animation: hello3v2 infinite 3s;
+  animation: hello3v2 infinite 4s;
 }
 
 @keyframes hello3v2 {
@@ -298,7 +298,7 @@ span.footnote {
 
 #r4-1::before {
   content: "combing knots ";
-  animation: hello4v1 infinite 3s;
+  animation: hello4v1 infinite 9s;
 }
 
 @keyframes hello4v1 {
@@ -318,7 +318,7 @@ span.footnote {
 
 #r4-2::before {
   content: "out ";
-  animation: hello4v2 infinite 3s;
+  animation: hello4v2 infinite 5s;
 }
 
 @keyframes hello4v2 {
