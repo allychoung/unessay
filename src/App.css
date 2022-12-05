@@ -75,3 +75,64 @@ section div h2 {
     transform: translateX(-100%);
   }
 } 
+
+span.footnote {
+  background-color: green;
+
+
+}
+
+
+#note-astoria:hover:after {
+  color: white;
+  content:  " (a small town found at the opening of the Columbia River)";
+}
+
+#note-goonies:hover:after {
+  color: white;
+  content:  " (released in 1985)";
+}
+
+#note-million:hover:after {
+  color: white;
+  content:  " (the reported number of illegal border crossings from the past year)";
+}
+
+#note-jordan:hover:after {
+  color: white;
+  content:  " (a country in the Middle East)";
+}
+
+#note-described:hover:after {
+  color: white;
+  content:  " (because we weren't sure if we would describe him that way in our own words)";
+}
+
+#note-1896:hover:after {
+  color: white;
+  content:  " (the year of the Anglo-Zanzibar War)";
+}
+
+#note-treasure:hover:after {
+  color: white;
+  content:  " (see Indiana Jones and Nicolas Cage)";
+}
+
+#p5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.ad {
+  background-color: pink;
+  width: 100%;
+}
+
+.actual-content {
+  width: 10%;
+  height: 10%;
+  overflow: scroll-y;
+}
