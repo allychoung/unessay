@@ -53,7 +53,7 @@ const Poem1 = () => {
             <div>
                 <h3>V. Advertising</h3>
                 <div id="p5">
-                    <img className="ad">
+                    <div className="ad">
                         <span className="animated bounce infinite">CLICK HERE</span>
                     </div>
                     <div className="ad">
