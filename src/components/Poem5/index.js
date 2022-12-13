@@ -28,8 +28,10 @@ const Poem5 = () => {
                     </div>
 
                 </div>
-                <Link to={"/"} className="text-right"><p className="text-right">Back to home</p> </Link>
-
+                <div className="d-flex justify-content-between">
+                        <Link to={"/poem4"} className="text-right"><span className="text-left">Previous exercise</span> </Link>
+                        <Link to={"/"} className="text-right"><span className="text-right">Return home</span> </Link>
+                    </div>
             </div>
             
             </div>
