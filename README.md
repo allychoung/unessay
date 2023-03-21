@@ -1,4 +1,5 @@
 # Unessay 
+[Netlify deployment](https://fabulous-hummingbird-a980a2.netlify.app/)
 
 This was a project done for an English course I took my third year of college. I wanted to use basic HTML and CSS to explore different means of human interactivity with reading that are faciliated through the use of digital technology.  
 
