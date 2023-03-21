@@ -1,3 +1,7 @@
+# Unessay 
+
+This was a project done for an English course I took my third year of college. I wanted to use basic HTML and CSS to explore different means of human interactivity with reading that are faciliated through the use of digital technology.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
